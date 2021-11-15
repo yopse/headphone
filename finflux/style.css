@@ -1,0 +1,327 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.header {
+  width: 100%;
+  min-height: 110vh;
+  background-color: #f0f0f0;
+}
+
+.header-sub {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  padding: 60px 0;
+  justify-content: space-between;
+}
+
+.sub-1,
+.sub-2 {
+  width: 50%;
+}
+
+.sub-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub-2 img {
+  width: 100%;
+}
+
+.brand-n {
+  font-size: 40px;
+}
+
+.amaze-exp {
+  color: #007bff;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.special-promo {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 52px;
+}
+
+.sub-1-p-f {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.primary-b {
+  background-color: #007bff;
+  border: 0;
+  width: 160px;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+.space-btn {
+  justify-content: space-between;
+}
+
+.mid-one {
+  width: 100%;
+}
+
+.mid-sub-one,
+.mid-sub-two {
+  width: 50%;
+}
+
+.mid-sub-one img {
+  width: 70%;
+}
+
+.testimonial {
+  width: 100%;
+  padding: 60px 0;
+}
+.testimonial-sub {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.trusted {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.company-logo {
+  width: 19%;
+  background-color: #f0f0f0;
+ 
+  
+  text-align: center;
+  padding: 10px 15px;
+}
+
+.v {
+
+   font-size: 13px;
+}
+
+.benefits {
+  width: 100%;
+  padding: 60px 0;
+}
+
+.benefits-sub {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fss {
+
+  font-size: 30px;
+  height: 50px !important;
+  width: 50px !important;
+
+  border-radius:50%;
+ background-color:#f0f0f0;
+  
+  text-align:center;
+  display: flex;
+  padding-top:8px;
+ color: #404040;
+  
+}
+
+
+
+/* 
+.footer-box .fa {
+  margin-right: 8px;
+  font-size: 25px;
+  height: 40px;
+  width: 40px;
+  padding-top: 7px;
+  border-radius: 2px;
+  background-image: linear-gradient(to right, #a517ba,#5f1782);
+  color: #fff;
+  text-align: center;
+
+   
+} */
+
+
+.benefit-s-exp {
+
+   width:23%;
+   
+}
+
+.benefit-s-exp p{
+
+  line-height: 28px;
+}
+
+
+
+
+.testimonial-two {
+  width: 100%;
+  padding: 60px 0;
+}
+
+
+.testimonial-two-sub {
+
+   width:75%;
+   margin:0 auto;
+   text-align: center;
+
+   
+}
+
+.testimonial-two-sub img{
+
+   width:100px;
+   border-radius:50%;
+}
+
+
+.star-box .icon {
+
+
+    font-size: 15px;
+}
+
+
+.test-text {
+
+    font-size:18px;
+    font-weight:600;
+    margin-bottom: 8px;
+}
+
+.star-box i{
+
+     margin:6px;
+}
+
+.star-box {
+
+    margin:10px 0;
+}
+
+
+.footer {
+    
+   width:100%;
+   padding: 30px 0;
+   background-color: #000;
+   
+}
+
+
+.footer-sub {
+
+   
+  width:75%;
+  margin:0 auto;
+  text-align: center;
+
+  
+}
+
+
+
+.value-text {
+
+   font-size: 26px;
+   color: #fff;
+   margin-top: 16px;
+}
+
+
+.value-para {
+
+    color: #fff;
+    margin-top:22px;   
+    margin-bottom:32px;   
+}
+
+
+.copyright-text {
+
+   color:#fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:820px) {
+
+
+   .header-sub {
+
+
+     flex-direction: column;
+   }
+    
+.sub-1,
+.sub-2 {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+
+.mid-sub-one,.mid-sub-two{
+  
+  width: 100%;
+  margin-bottom: 20px;
+
+}
+
+.benefits-sub {
+flex-direction: column;
+}
+.benefit-s-exp {
+
+  width:100%;
+  margin-bottom: 12px;
+  
+}
+
+  
+}
+
+@media (max-width:723px) {
+
+  .v {
+      font-size: 7px;
+  
+}
+
+.company-logo {
+  
+  padding: 10px 8px;
+}
+
+}
